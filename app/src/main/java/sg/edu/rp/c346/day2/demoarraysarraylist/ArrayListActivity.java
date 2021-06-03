@@ -36,7 +36,7 @@ public class ArrayListActivity extends AppCompatActivity {
 
         System.out.println("Size is : " + al.size());
 
-        String msg = "";
+        String msg = "Fruits\n======\n";
         for (int i = 0; i < al.size(); i++)
         {
             msg += al.get(i) + "\n";
@@ -44,7 +44,6 @@ public class ArrayListActivity extends AppCompatActivity {
 
         System.out.println(msg);
         tv.setText(msg);
-
 
     }
 }
